@@ -1,0 +1,970 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vCard - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/new-images/my.png" alt="Mehran Aslam" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Mehran Aslam">Mehran Aslam</h1>
+
+          <p class="title">DevOps Cloud Engineer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mehran.aslam264@gmail.com" class="contact-link">mehran.aslam264@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+923174232242" class="contact-link">+92 (317) 4232242</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+              <time datetime="1982-06-23">January 01, 1995</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Tajpura, Lahore Pakistan</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/mehran-aslam-devops/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://wa.me/+923016445029" class="social-link">
+              <ion-icon name="logo-whatsapp"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+          
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">Professional Summary</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Dedicated DevOps Engineer with 3 years of experience in deploying and managing resilient, scalable, and secure infrastructures. Proficient in CI/CD pipelines, cloud automation, and container orchestration.
+          </p>
+
+          <p>
+            Skilled in utilizing tools such as AWS, Terraform, Kubernetes, and Jenkins to deliver seamless deployments and operational excellence. Adept at improving system reliability and driving efficient build and release resolutions.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+                <div class="service-icon-box">
+                  <img src="./assets/new-images/images.png" alt="Git Icon" width="40">
+                </div>  
+                <div class="service-content-box">
+                <h4 class="h4 service-item-title">Version Control</h4>
+
+                <p class="service-item-text">
+                  Efficiently managing source code using Git to ensure seamless collaboration and version control.
+                </p>
+              </div>
+  
+            </li>
+  
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/new-images/docker.png" alt="design icon" width="40">
+              </div>
+  
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Containerization</h4>
+
+                <p class="service-item-text">
+                  Creating and managing lightweight, portable containers to ensure consistency across development, testing, and production environments.
+                </p>
+              </div>
+  
+            </li>
+  
+            <li class="service-item">
+
+                <div class="service-icon-box">
+                  <img src="./assets/new-images/kubernetes.png" alt="design icon" width="40">
+                </div>
+   
+                <div class="service-content-box">
+                <h4 class="h4 service-item-title">Orchestration</h4>
+
+                <p class="service-item-text">
+                  Deploying, scaling, and managing containerized applications with Kubernetes for high availability and fault tolerance.
+                </p>
+              </div>
+   
+            </li>
+   
+            <li class="service-item">
+
+                <div class="service-icon-box">
+                  <img src="./assets/new-images/jenkins.png" alt="design icon" width="40">
+                </div>
+   
+                <div class="service-content-box">
+                <h4 class="h4 service-item-title">Continuous Integration & Delivery (CI/CD)</h4>
+
+                <p class="service-item-text">
+                  Building automated pipelines using Jenkins to accelerate software delivery and reduce deployment errors.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/new-images/aws.png" alt="Web development icon" width="40">
+              </div>
+            <div class="service-content-box">
+                <h4 class="h4 service-item-title">Cloud Infrastructure</h4>
+                <h5 class="h4 service-item-title">AWS</h5>
+                <p class="service-item-text">
+                  Architecting scalable and secure cloud solutions using AWS services like EC2, S3, and RDS.
+                </p> 
+                  
+              </div>
+   
+         </li>
+         <li class="service-item">
+
+          <div class="service-icon-box">
+            <img src="./assets/new-images/ansible.png" alt="Web development icon" width="40">
+          </div>
+        <div class="service-content-box">
+            <h4 class="h4 service-item-title">Configuration Management</h4>
+            <p class="service-item-text">
+              Automating server configuration and application deployment with Ansible to ensure consistency and efficiency.
+            </p>
+          </div>
+
+     </li>
+
+         </ul>
+   
+            </section>
+            
+
+<!--
+          - testimonials
+        -->
+
+
+        <section class="testimonials">
+
+              <h3 class="h3 testimonials-title">Work Experience</h3>
+    
+              <ul class="testimonials-list has-scrollbar">
+    
+                <li class="testimonials-item">
+                  <div class="content-card" data-testimonials-item>
+    
+                    <figure class="testimonials-avatar-box">
+                      <img src="./assets/new-images/HRSG.png" alt="HRSG" width="60" data-testimonials-avatar>
+                    </figure>
+    
+                    <h4 class="h4 testimonials-item-title" data-testimonials-title>HRSG Limited</h4>
+    
+                    <div class="testimonials-text" data-testimonials-text>
+                      <p>
+                        •	Designed and deployed scalable Kubernetes clusters, ensuring high availability and fault tolerance.
+                        •	Implemented Kubernetes Role-Based Access Control (RBAC) for secure multi-tenant environments.
+                        •	Automated Kubernetes cluster provisioning using tools like Terraform and Helm.
+                        •	Optimized application deployments using Kubernetes features such as StatefulSets, DaemonSets, and ConfigMaps.
+                        •	Managed cluster monitoring and logging with Prometheus, Grafana, and the ELK Stack.
+                        •	Integrated CI/CD pipelines with Kubernetes for seamless application updates using GitOps tools like Argo CD
+
+                      </p>
+                    </div>
+    
+                  </div>
+                </li>
+    
+                <li class="testimonials-item">
+                  <div class="content-card" data-testimonials-item>
+    
+                    <figure class="testimonials-avatar-box">
+                      <img src="./assets/new-images/dwp.jpg" alt="DWP Limited" width="60" data-testimonials-avatar>
+                    </figure>
+    
+                    <h4 class="h4 testimonials-item-title" data-testimonials-title>DWP Limited</h4>
+    
+                    <div class="testimonials-text" data-testimonials-text>
+                      <p>
+                        •	Established AWS Organizations and automated infrastructure provisioning using Terraform.
+                        •	Implemented Blue-Green deployment strategies in Kubernetes environments to ensure zero-downtime deployments.
+                        •	Ensured secure data storage and retrieval in the cloud with encryption best practices.
+                        •	Monitored and optimized automated build processes for efficient build/release failure resolution.
+                        •	Utilized pivotal DevOps tools like Git, GitHub, Docker, Kubernetes, Helm, CircleCI, and GitHub Actions
+
+                      </p>
+                    </div>
+    
+                  </div>
+                </li>
+    
+                <li class="testimonials-item">
+                  <div class="content-card" data-testimonials-item>
+    
+                    <figure class="testimonials-avatar-box">
+                      <img src="./assets/new-images/tekboox.png" alt="Tekboox" width="60" data-testimonials-avatar>
+                    </figure>
+    
+                    <h4 class="h4 testimonials-item-title" data-testimonials-title>Tekboox Limited</h4>
+    
+                    <div class="testimonials-text" data-testimonials-text>
+                      <p>
+                        •	Developed and managed deployment pipelines using GitHub Actions and Jenkins.
+                        •	Maintained cloud infrastructure on AWS, ensuring high availability and cost optimization.
+                        •	Automated infrastructure provisioning and monitored CI/CD pipelines to resolve failures efficiently using Terraform.
+                        •	Provided continuous support for infrastructure-related issues during development and deployment phases
+
+                      </p>
+                    </div>
+    
+                  </div>
+                </li>
+    
+              </ul>
+    
+            </section>
+    
+    
+            <!--
+              - testimonials modal
+            -->
+    
+            <div class="modal-container" data-modal-container>
+    
+              <div class="overlay" data-overlay></div>
+    
+              <section class="testimonials-modal">
+    
+                <button class="modal-close-btn" data-modal-close-btn>
+                  <ion-icon name="close-outline"></ion-icon>
+                </button>
+    
+                <div class="modal-img-wrapper">
+                  <figure class="modal-avatar-box">
+                    <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+                  </figure>
+    
+                  <img src="./assets/images/icon-quote.svg" alt="quote icon">
+                </div>
+    
+                <div class="modal-content">
+    
+                  <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+    
+                  <time datetime="2021-06-14">14 June, 2021</time>
+    
+                  <div data-modal-text>
+                    <p>
+                      •	Developed and managed deployment pipelines using GitHub Actions and Jenkins.
+                        •	Maintained cloud infrastructure on AWS, ensuring high availability and cost optimization.
+                        •	Automated infrastructure provisioning and monitored CI/CD pipelines to resolve failures efficiently using Terraform.
+                        •	Provided continuous support for infrastructure-related issues during development and deployment phases
+
+                    </p>
+                  </div>
+    
+                </div>
+    
+              </section>
+    
+            </div>
+    
+
+          <!--
+          - Projects
+        -->
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Projects</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/new-images/project 1.jpg" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/new-images/project 2.jpeg" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/new-images/project 3.avif" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/new-images/project 4.webp" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/new-images/project 5.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/new-images/project 7.png" alt="client logo">
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">University of Gujrat</h4>
+
+              <span>2015 — 2019</span>
+
+              <p class="timeline-text">
+                Bachelor of Science in Computer Science
+                            </p>
+
+            </li>         
+          
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+              <h3 class="h4 timeline-item-title">HRSG Limited</h3>
+              <h4 class="h4 timeline-item-title">DevOps Cloud Engineer</h4>
+
+              <span>05/2024 -- Present</span>
+
+              <p class="timeline-text">
+                •	Designed and deployed scalable Kubernetes clusters, ensuring high availability and fault tolerance.
+                •	Implemented Kubernetes Role-Based Access Control (RBAC) for secure multi-tenant environments.
+                •	Automated Kubernetes cluster provisioning using tools like Terraform and Helm.
+                •	Optimized application deployments using Kubernetes features such as StatefulSets, DaemonSets, and ConfigMaps.
+                •	Managed cluster monitoring and logging with Prometheus, Grafana, and the ELK Stack.
+                •	Integrated CI/CD pipelines with Kubernetes for seamless application updates using GitOps tools like Argo CD
+ 
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+              <h3 class="h4 timeline-item-title">DWP Limited</h3>
+              <h4 class="h4 timeline-item-title">DevOps Engineer</h4>
+
+              <span>01/2022 -- 05/2024</span>
+
+              <p class="timeline-text">
+                •	Established AWS Organizations and automated infrastructure provisioning using Terraform.                  •	Implemented Blue-Green deployment strategies in Kubernetes environments to ensure zero-downtime deployments.
+                •	Ensured secure data storage and retrieval in the cloud with encryption best practices.
+                •	Monitored and optimized automated build processes for efficient build/release failure resolution.
+                •	Utilized pivotal DevOps tools like Git, GitHub, Docker, Kubernetes, Helm, CircleCI, and GitHub Actions
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+              <h3 class="h4 timeline-item-title">Tekboox Limited</h3>
+              <h4 class="h4 timeline-item-title">Associate DevOps Engineer</h4>
+
+              <span>2010 — 2013</span>
+
+              <p class="timeline-text">
+                •	Developed and managed deployment pipelines using GitHub Actions and Jenkins.
+                •	Maintained cloud infrastructure on AWS, ensuring high availability and cost optimization.
+                •	Automated infrastructure provisioning and monitored CI/CD pipelines to resolve failures efficiently using Terraform.
+                •	Provided continuous support for infrastructure-related issues during development and deployment phases
+
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Kubernetes</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Docker</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">AWS(Amazon Web services)</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Jenkins</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Git</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Ansible</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Kubernetes</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Jenkins</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Terraform</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Kubernetes</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Jenkins</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Terraform</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/new-images/project 1.jpg" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Kubernetes</h3>
+
+                <p class="project-category">Kubernetes</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/new-images/project 2.jpeg" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Jenkins</h3>
+
+                <p class="project-category">Jenkins</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/new-images/project 3.avif" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Jenkins</h3>
+
+                <p class="project-category">Jenkins</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/new-images/project 4.webp" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Kubernetes</h3>
+
+                <p class="project-category">Kubernetes</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/new-images/project 5.png" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Terraform</h3>
+
+                <p class="project-category">Terraform</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/new-images/project 6.png" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Jenkins</h3>
+
+                <p class="project-category">Jenkins</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/new-images/project 7.png" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Kubernetes</h3>
+
+                <p class="project-category">Kubernetes</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      --><!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6799.275575839663!2d74.39650139159185!3d31.56155373861963!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391905584b2d22cd%3A0xd1d5ee84bfe2f5d3!2sTajpura%2C%20Lahore%2C%20Punjab%2C%20Pakistan!5e0!3m2!1sen!2s!4v1733317942508!5m2!1sen!2s"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
